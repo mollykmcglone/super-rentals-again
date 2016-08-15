@@ -16,7 +16,7 @@ export default Ember.Component.extend({
         bedrooms: this.get('bedrooms'),
       };
       this.set('addNewRental', false);
-      this.sendAction('save2', params);
+      this.sendActifon('save2', params);
     }
   }
 });
