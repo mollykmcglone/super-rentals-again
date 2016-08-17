@@ -1,0 +1,13 @@
+<h1>welcome to {{city.name}}</h1>
+<p>
+  {{city.name}}'s details
+  country: {{city.country}}
+  <hr>
+  rentals available in {{city.name}}:
+  <ul>
+    {{#each city.rentals as |rental|}}
+      {{rental-tile rental=rental}}
+    {{/each}}
+  </ul>
+  <button {{action 'delete' city}}>Delete</button>
+</p>

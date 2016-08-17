@@ -3,10 +3,10 @@
 module.exports = function(environment) {
   var ENV = {
     firebase: {
-      apiKey: "AIzaSyB9baqzVGoD9XVtvfU_dh7TAn32lt55c78",
-      authDomain: "super-rentals-bed93.firebaseapp.com",
-      databaseURL: "https://super-rentals-bed93.firebaseio.com",
-      storageBucket: "super-rentals-bed93.appspot.com",
+      apiKey: "AIzaSyAXff3IHDSq7cRmlvfhhzADugr2e6KmbGQ",
+      authDomain: "super-rentals-828d6.firebaseapp.com",
+      databaseURL: "https://super-rentals-828d6.firebaseio.com",
+      storageBucket: "super-rentals-828d6.appspot.com",
     },
     modulePrefix: 'ember-test',
     environment: environment,
